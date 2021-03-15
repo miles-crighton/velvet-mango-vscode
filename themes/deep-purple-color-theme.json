@@ -138,7 +138,7 @@
             "name": "String",
             "scope": "string",
             "settings": {
-                "foreground": "#9adfed"
+                "foreground": "#9ae0f0"
             }
         },
         {
@@ -235,7 +235,7 @@
             "scope": "entity.name.function",
             "settings": {
                 "fontStyle": "",
-                "foreground": "#F67979"
+                "foreground": "#f08181"
             }
         },
         {
@@ -266,7 +266,7 @@
             "scope": "support.function",
             "settings": {
                 "fontStyle": "",
-                "foreground": "#F67979"
+                "foreground": "#f08181"
             }
         },
         {
@@ -274,7 +274,7 @@
             "scope": "support.constant",
             "settings": {
                 "fontStyle": "",
-                "foreground": "#F67979"
+                "foreground": "#f08181"
             }
         },
         {
@@ -332,7 +332,7 @@
                 "punctuation.definition.template-expression.end"
             ],
             "settings": {
-                "foreground": "#EB579C"
+                "foreground": "#FFADE8"
             }
         },
         {
