@@ -1,0 +1,21 @@
+{
+    "name": "deep-purple",
+    "displayName": "deep-purple",
+    "description": "deep-purple theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.54.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "deep-purple",
+                "uiTheme": "vs-dark",
+                "path": "./themes/deep-purple-color-theme.json"
+            }
+        ]
+    }
+}
