@@ -215,6 +215,14 @@
             }
         },
         {
+            "name": "Storage Modifier",
+            "scope": "storage.modifier",
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#9994FF"
+            }
+        },
+        {
             "name": "Class name",
             "scope": ["entity.name.class", "meta.class entity.name.type.class"],
             "settings": {
