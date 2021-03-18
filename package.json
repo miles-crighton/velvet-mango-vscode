@@ -1,7 +1,7 @@
 {
     "name": "deep-purple",
-    "displayName": "deep-purple",
-    "description": "deep-purple theme",
+    "displayName": "Deep Purple",
+    "description": "Feel the embrace of velvety purple dashed with scrumptious orange",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.54.0"
