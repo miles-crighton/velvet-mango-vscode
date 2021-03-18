@@ -137,21 +137,50 @@
     "tokenColors": [
         {
             "name": "Comment",
-            "scope": "comment",
+            "scope": [
+                "comment",
+                "punctuation.definition.comment",
+                "punctuation.definition.tag",
+                "comment.block.documentation punctuation.definition.bracket",
+                "source.ocaml comment constant.regexp meta.separator"
+            ],
             "settings": {
                 "foreground": "#856085"
             }
         },
         {
             "name": "String",
-            "scope": "string",
+            "scope": [
+                "string",
+                "punctuation.definition.string",
+                "source.css support.constant",
+                "entity.name.import.go",
+                "markup.raw.texttt",
+                "markup.inserted.diff",
+                "source.scala punctuation.definition.character",
+                "constant.character.literal.scala",
+                "source.tf entity.name"
+            ],
             "settings": {
                 "foreground": "#a3e2f0"
             }
         },
         {
             "name": "Number",
-            "scope": ["constant.numeric", "constant.character.numeric"],
+            "scope": [
+                "constant.numeric",
+                "constant.language",
+                "punctuation.separator.decimal.period.php",
+                "keyword.operator.null-conditional.cs",
+                "punctuation.separator.question-mark.cs",
+                "constant.integer.apacheconf",
+                "keyword.operator.nullable-type",
+                "constant.language punctuation.definition.variable",
+                "constant.others.fsharp",
+                "keyword.other.unit",
+                "string.quoted.double.skinparam.value",
+                "source.toml constant"
+            ],
             "settings": {
                 "foreground": "#97a3ff"
             }
@@ -317,7 +346,7 @@
         },
         {
             "name": "Tag name",
-            "scope": "entity.name.tag",
+            "scope": ["entity.name.tag"],
             "settings": {
                 "foreground": "#F67979"
             }
