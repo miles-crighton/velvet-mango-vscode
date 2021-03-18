@@ -36,4 +36,4 @@ Sarah Drasner's article on [Creating a VSCode Theme](https://css-tricks.com/crea
 
 Some token groups adapted from [Noctis](https://github.com/liviuschera/noctis)
 
-Inspiration taken from Olaolu Olawuyi's [Palenight](https://marketplace.visualstudio.com/items?itemName=whizkydee.material-palenight-theme) and Victoria Drake's [Kabukichō](https://github.com/victoriadrake/kabukicho-vscode)
+Inspiration taken from Olaolu Olawuyi's [Palenight](https://marketplace.visualstudio.com/items?itemName=whizkydee.material-palenight-theme) and Victoria Drake's [Kabukichō](https://marketplace.visualstudio.com/items?itemName=VictoriaDrake.kabukicho)
