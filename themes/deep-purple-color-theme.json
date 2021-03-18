@@ -67,22 +67,20 @@
 
         // Bar at top of window
         "titleBar.activeBackground": "#2d202e",
-        "titleBar.activeForeground": "#ffd5e7",
+        "titleBar.activeForeground": "#FFB0B0",
         "titleBar.inactiveBackground": "#3b2a3c",
         "titleBar.inactiveForeground": "#8e5a94",
 
         "editor.background": "#39293B",
         "editor.foreground": "#FFE3E3",
-        "editorGroupHeader.tabsBackground": "#47344a",
-        "tab.border": "#604663",
-        "tab.activeBackground": "#2e2130",
-        "tab.activeForeground": "#fff0e2",
-        "tab.inactiveBackground": "#47344a",
-        "tab.inactiveForeground": "#c49ebe",
+        "editorGroupHeader.tabsBackground": "#332535",
+        "tab.border": "#3f2e4100",
+        "tab.activeBackground": "#4b3543",
+        "tab.activeForeground": "#f58989",
+        "tab.inactiveBackground": "#332535",
+        "tab.inactiveForeground": "#e6aeae",
 
-        "statusBar.background": "#5650cb",
-        "statusBar.foreground": "#ffffff",
-        "editorLineNumber.activeForeground": "#FFE3E3",
+        "editorLineNumber.activeForeground": "#f58989",
         "editorLineNumber.foreground": "#856085",
         "editor.hoverHighlightBackground": "#856085",
         "editor.selectionBackground": "#653e65",
@@ -98,6 +96,12 @@
         "editorHoverWidget.background": "#32212e",
         "editorHoverWidget.border": "#54364c",
         "editorHoverWidget.foreground": "#df91ca",
+
+        // Status bar - bottom bar
+        "statusBar.background": "#332535",
+        "statusBar.foreground": "#e6aeae",
+        "statusBar.debuggingBackground": "#5650cb",
+        "statusBar.debuggingForeground": "#ffffff",
 
         "menu.selectionForeground": "#856085",
 
@@ -125,7 +129,9 @@
 
         "progressBar.background": "#806ef5",
 
-        "breadcrumb.foreground": "#B57EB8"
+        "breadcrumb.foreground": "#e6aeae",
+        "breadcrumb.activeSelectionForeground": "#f58989",
+        "breadcrumb.background": "#332535"
     },
     "tokenColors": [
         {
