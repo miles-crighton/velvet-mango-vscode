@@ -3,7 +3,7 @@
 Give your VSCode a treat, install **Deep Purple** - embrace the caress of deep _velvety_ purples; let your editor become enveloped by warm _scrumptious_ oranges.
 It's not a desert, it does however give you some eye candy as you _tip-tap-clap_ your _groovy_ code.
 
-![Screenshot](https://github.com/miles-crighton/deep-purple-vscode/blob/master/screenshot.png)
+![Screenshot](https://github.com/miles-crighton/deep-purple-vscode/blob/master/screenshot2.png)
 _Font is Fira Code, yum._
 
 ## Installation
