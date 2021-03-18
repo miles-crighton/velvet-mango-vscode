@@ -1,4 +1,4 @@
-![Deep Purple](https://github.com/miles-crighton/deep-purple-vscode/blob/master/readme-img.png)
+![Deep Purple](https://github.com/miles-crighton/deep-purple-vscode/blob/master/readme-img2.png)
 
 Give your VSCode a treat, install **Deep Purple** - embrace the caress of deep _velvety_ purples; let your editor become enveloped by warm _scrumptious_ oranges.
 It's not a desert, it does however give you some eye candy as you _tip-tap-clap_ your _groovy_ code.
