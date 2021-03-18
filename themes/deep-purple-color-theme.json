@@ -81,7 +81,7 @@
         "tab.inactiveForeground": "#e6aeae",
 
         "editorLineNumber.activeForeground": "#f58989",
-        "editorLineNumber.foreground": "#856085",
+        "editorLineNumber.foreground": "#745074",
         "editor.hoverHighlightBackground": "#856085",
         "editor.selectionBackground": "#653e65",
         "editorPane.background": "#39293B",
@@ -90,7 +90,8 @@
         // Editor cursor / line
         "editorCursor.foreground": "#bd62ae",
         "editorCursor.background": "#ffe3e3",
-        "editor.lineHighlightBorder": "#4f3352",
+        "editor.lineHighlightBorder": "#4f335200",
+        "editor.lineHighlightBackground": "#332535",
 
         // Editor tooltip on hover
         "editorHoverWidget.background": "#32212e",
