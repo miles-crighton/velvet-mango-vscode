@@ -191,7 +191,9 @@
         "terminal.ansiBrightCyan": "#87DDEE",
         "terminal.ansiBrightWhite": "#FFF0F0",
         "terminal.background": "#332535",
-        "terminal.foreground": "#FFE3E3"
+        "terminal.foreground": "#FFE3E3",
+        "terminalCursor.background": "#ffe3e3",
+        "terminalCursor.foreground": "#bd62ae"
     },
     "tokenColors": [
         {
