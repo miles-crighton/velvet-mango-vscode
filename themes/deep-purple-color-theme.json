@@ -47,8 +47,8 @@
         "list.activeSelectionForeground": "#ff8181",
         "list.invalidItemForeground": "#975f94",
         "list.dropBackground": "#011627",
-        "list.focusBackground": "#cd86d8",
-        "list.focusForeground": "#ffffff",
+        "list.focusBackground": "#59403d",
+        "list.focusForeground": "#ffdada",
         "list.highlightForeground": "#ffffff",
         "list.hoverBackground": "#3f2c39",
         "list.hoverForeground": "#ffa2a2",
@@ -109,15 +109,18 @@
         // Searchbar
         "editorWidget.background": "#291b26",
 
-        // Editor gutter
+        // Editor added/modified/deleted
         "editorGutter.addedBackground": "#A7C966",
         "editorGutter.deletedBackground": "#EF4568",
         "editorGutter.modifiedBackground": "#756ADE",
+        "minimapGutter.addedBackground": "#A7C966",
+        "minimapGutter.modifiedBackground": "#756ADE",
+        "minimapGutter.deletedBackground": "#EF4568",
 
         // Scrollbars
-        "scrollbarSlider.background": "#674467",
-        "scrollbarSlider.hoverBackground": "#764d76",
-        "scrollbarSlider.activeBackground": "#985d98",
+        "scrollbarSlider.background": "#67446785",
+        "scrollbarSlider.hoverBackground": "#764d7685",
+        "scrollbarSlider.activeBackground": "#985d9885",
         "scrollbar.shadow": "#ff000000",
 
         // Git ignore
@@ -128,11 +131,35 @@
         "gitDecoration.addedResourceForeground": "#A7C966",
         "gitDecoration.ignoredResourceForeground": "#674769",
 
+        // Diffs screen
+        "diffEditor.insertedTextBackground": "#b2dc6616",
+        "diffEditor.removedTextBackground": "#f53c6116",
+        "diffEditor.diagonalFill": "#5c405e",
+
+        // Peak view
+        "peekViewEditor.background": "#281D29",
+        "peekViewResult.background": "#332535",
+        "peekView.border": "#e29962",
+        "peekViewTitleLabel.foreground": "#ffb186",
+        "peekViewTitleDescription.foreground": "#ceb6a3",
+        "peekViewResult.selectionBackground": "#59403d",
+        "peekViewResult.fileForeground": "#ffd1d1",
+        "peekViewResult.lineForeground": "#c7a1a1",
+        "peekViewResult.matchHighlightBackground": "#d292bb43",
+        "peekViewEditor.matchHighlightBackground": "#ff49e443",
+
         "progressBar.background": "#806ef5",
 
         "breadcrumb.foreground": "#e6aeae",
         "breadcrumb.activeSelectionForeground": "#f58989",
-        "breadcrumb.background": "#332535"
+        "breadcrumb.background": "#332535",
+        "breadcrumbPicker.background": "#281D29",
+        "debugToolBar.background": "#1f1529",
+        "debugExceptionWidget.background": "#1f1529",
+        "debugExceptionWidget.border": "#ffffff",
+        "extensionButton.prominentBackground": "#c26ef4",
+        "extensionButton.prominentForeground": "#e5f5f5",
+        "extensionButton.prominentHoverBackground": "#58c7e0"
     },
     "tokenColors": [
         {
