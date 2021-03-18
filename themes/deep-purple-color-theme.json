@@ -328,29 +328,52 @@
                 "constant.other.color.rgb-value.hex"
             ],
             "settings": {
-                "foreground": "#97a3ff"
-            }
-        },
-        {
-            "name": "Built-in constant",
-            "scope": [
-                "constant.language"
-                // "punctuation.definition.constant",
-                // "variable.other.constant"
-            ],
-            "settings": {
-                "foreground": "#97a3ff"
+                "foreground": "#919eff"
             }
         },
         {
             "name": "User-defined constant",
             "scope": [
+                "constant",
+                "variable.other.constant",
+                "support.constant",
+                "punctuation.definition.entity",
+                "constant.character.entity",
+                "support.variable.magic",
+                "markup.quote",
+                "entity.name.type.type-parameter.cs",
+                "punctuation.bracket.angle",
+                "entity.name.function.preprocessor.c",
+                "storage.type.scala",
+                "entity.helper.apacheconf",
+                "variable.language.crystal",
+                "punctuation.definition.constant",
+                "support.constant punctuation.definition.variable",
+                "constant.character.math",
+                "support.class.math",
+                "source.graphql constant.character",
+                "source.reason constant.language.list",
+                "source.cpp variable.other.enummember",
+                "support.variable.class.hideshow",
+                "entity.other.attribute-name.class",
+                "meta.attribute.id entity.other.attribute-name",
+                "text.html entity.other.attribute-name",
+                "meta.tag.attributes entity.other.attribute-name",
+                "text.xml entity.other.attribute-name",
+                "source.cs entity.other.attribute-name",
+                "constant.character.format.placeholder",
+                "constant.other.placeholder",
+                "source.vue entity.other.attribute-name",
+                "entity.other.attribute-name.mjml",
+                "source.vue meta.directive punctuation.separator.key-value",
+                "meta.definition.attribute-entry punctuation.separator",
+
+                // Remove up to here if needed
                 "constant.character",
                 "constant.other"
-                // "meta.array-binding-pattern-variable"
             ],
             "settings": {
-                "foreground": "#B080E3"
+                "foreground": "#bd8bf3"
             }
         },
         {
@@ -424,7 +447,62 @@
         },
         {
             "name": "JS This/Super",
-            "scope": ["variable.language.super", "variable.language.this"],
+            "scope": [
+                "variable.language",
+                "variable.parameter.function.language.special",
+                "markup.bold",
+                "markup.italic",
+                "punctuation.definition.italic",
+                "punctuation.definition.bold",
+                "entity.name.tag",
+                "variable.language punctuation.definition.variable",
+                "keyword.control.clojure",
+                "support.type.exception.python",
+                "keyword.other.this.cs",
+                "keyword.other.base.cs",
+                "keyword.other.var.cs",
+                "storage.modifier.super",
+                "source.go keyword",
+                "keyword.function.go",
+                "meta.separator",
+                "keyword.other.fn.rust",
+                "storage.modifier.static.rust",
+                "source.r meta.function.r keyword.control.r",
+                "storage.type.def",
+                "meta.class.identifier storage.modifier",
+                "source.scala keyword.declaration",
+                "storage.type",
+                "comment.block.documentation punctuation.definition.block.tag",
+                "comment.block.documentation punctuation.definition.inline.tag",
+                "entity.tag.apacheconf",
+                "keyword.other.julia",
+                "source.julia storage.modifier",
+                "constant.language.empty-list.haskell",
+                "meta.function.powershell storage.type.powershell",
+                "keyword.control.fun",
+                "punctuation.terminator.function",
+                "keyword.other.rust",
+                "keyword.other.declaration-specifier.swift",
+                "keyword.control.class",
+                "keyword.control.def",
+                "source.ocaml keyword markup.underline",
+                "source.ocaml storage.type markup.underline",
+                "binding.fsharp keyword",
+                "function.anonymous keyword",
+                "function.anonymous keyword.symbol.fsharp",
+                "meta.embedded.block variable.language punctuation.definition.variable.php",
+                "keyword.declaration.dart",
+                "source.wsd keyword.other.class",
+                "source.wsd keyword.other.linebegin",
+                "keyword.other.skinparam.keyword",
+                "keyword.other.nim",
+                "markup.deleted.diff",
+                "source.tf support.class.variable",
+                "meta.function.lua keyword.control.lua",
+                "markup.italic punctuation.definition",
+                "markup.bold punctuation.definition",
+                "markup.block entity.name.tag"
+            ],
             "settings": {
                 "foreground": "#F24B99"
             }
@@ -476,7 +554,27 @@
         },
         {
             "name": "Function name",
-            "scope": "entity.name.function",
+            "scope": [
+                "variable.function",
+                "support.type.property-name",
+                "entity.name.function",
+                "string.other.link",
+                "markup.link",
+                "support.type.vendored",
+                "support.other.variable",
+                "meta.function-call.generic.python",
+                "meta.method-call.groovy meta.method.groovy",
+                "meta.class.body.groovy meta.method.body.java storage.type.groovy",
+                "punctuation.definition.decorator",
+                "support.function.any-method",
+                "text.tex support.function",
+                "text.tex punctuation.definition.function",
+                "entity.name.section.fsharp entity.name.section.fsharp",
+                "support.variable.class.function",
+                "keyword.control.cucumber.table",
+                "punctuation.decorator",
+                "source.tf support.class"
+            ],
             "settings": {
                 "fontStyle": "",
                 "foreground": "#f08181"
