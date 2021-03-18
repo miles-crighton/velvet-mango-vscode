@@ -34,9 +34,9 @@
         "inputValidation.errorBorder": "#FF4A8A",
         "inputValidation.errorForeground": "#ffc8d9",
         "inputValidation.errorBackground": "#42232f",
-        "inputValidation.warningForeground": "#ffe49f",
+        "inputValidation.warningForeground": "#ffdf8f",
         "inputValidation.warningBorder": "#F9CD5F",
-        "inputValidation.warningBackground": "#473d25",
+        "inputValidation.warningBackground": "#3b3425",
         "inputOption.activeBackground": "#4d469a",
         "dropdown.background": "#281d29",
         "dropdown.foreground": "#FFE3E3",
@@ -367,7 +367,6 @@
                 "entity.other.attribute-name.mjml",
                 "source.vue meta.directive punctuation.separator.key-value",
                 "meta.definition.attribute-entry punctuation.separator",
-
                 // Remove up to here if needed
                 "constant.character",
                 "constant.other"
@@ -377,10 +376,20 @@
             }
         },
         {
-            "name": "Variable",
-            "scope": "variable",
+            "name": "Punctuation Minor Adjustment",
+            "scope": ["punctuation.accessor"],
             "settings": {
-                "fontStyle": ""
+                "foreground": "#FFC3C3"
+            }
+        },
+        {
+            "name": "Punctuation Minor Adjustment",
+            "scope": [
+                "punctuation.definition.template-expression.begin",
+                "punctuation.definition.template-expression.end"
+            ],
+            "settings": {
+                "foreground": "#eb70d7"
             }
         },
         {
@@ -392,7 +401,7 @@
                 "keyword.other.substitution",
                 "storage.modifier",
                 "meta.tag.sgml",
-                "punctuation.accessor",
+
                 "constant.other.color",
                 "entity.name.section",
                 "markup.heading",
@@ -501,7 +510,8 @@
                 "meta.function.lua keyword.control.lua",
                 "markup.italic punctuation.definition",
                 "markup.bold punctuation.definition",
-                "markup.block entity.name.tag"
+                "markup.block entity.name.tag",
+                "storage.modifier.async"
             ],
             "settings": {
                 "foreground": "#F24B99"
@@ -577,7 +587,7 @@
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#f08181"
+                "foreground": "#fe8181"
             }
         },
         {
@@ -603,11 +613,11 @@
             }
         },
         {
-            "name": "Library function",
-            "scope": "support.function",
+            "name": "Library supports ",
+            "scope": ["support.function", "support.type", "support.class"],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#ff88d3"
+                "foreground": "#7ac3f4"
             }
         },
         {
@@ -615,13 +625,6 @@
             "scope": "support.constant",
             "settings": {
                 "fontStyle": "",
-                "foreground": "#f08181"
-            }
-        },
-        {
-            "name": "Library class/type",
-            "scope": ["support.type", "support.class"],
-            "settings": {
                 "foreground": "#f08181"
             }
         },
@@ -649,39 +652,37 @@
         },
         {
             "name": "TypeScript[React] Entity Name Types",
-            "scope": ["entity.name.type.ts", "entity.name.type.tsx"],
+            "scope": [
+                "entity.name.type.ts",
+                "entity.name.type.tsx",
+                "support.type.primitive.ts",
+                "support.type.builtin.ts"
+            ],
             "settings": {
                 "foreground": "#F9B975"
             }
         },
         {
             "name": "JS Object literal key",
-            "scope": [
-                "meta.object-literal.key.js",
-                // "meta.object-literal.key"
-                "variable.object.property"
-            ],
+            "scope": ["meta.object-literal.key.js", "variable.object.property"],
             "settings": {
                 "foreground": "#D894E6"
             }
         },
         {
             "name": "JS Template expression punctuation",
-            "scope": [
-                "punctuation.definition.template-expression.begin",
-                "punctuation.definition.template-expression.end"
-            ],
+            "scope": [],
             "settings": {
-                "foreground": "#e67bbb"
+                "foreground": "#FFC3C3"
             }
         },
         {
             "name": "TypeScript[React] Variables and Object Properties",
             "scope": [
-                "variable.other.object.ts",
-                "variable.other.object.tsx",
-                "variable.object.property.ts",
-                "variable.object.property.tsx",
+                // "variable.other.object.ts",
+                // "variable.other.object.tsx",
+                // "variable.object.property.ts",
+                // "variable.object.property.tsx",
                 "variable.other.ts",
                 "variable.other.tsx",
                 "variable.tsx",
@@ -689,13 +690,6 @@
             ],
             "settings": {
                 "foreground": "#FFE3E3"
-            }
-        },
-        {
-            "name": "JS Async Commands",
-            "scope": ["storage.modifier.async.tsx"],
-            "settings": {
-                "foreground": "#EB579C"
             }
         },
         {
@@ -727,17 +721,6 @@
                 "foreground": "#82AAFF"
             }
         },
-        // {
-        //     "name": "Text nested in React tags",
-        //     "scope": [
-        //         "meta.jsx.children",
-        //         "meta.jsx.children.js",
-        //         "meta.jsx.children.tsx"
-        //     ],
-        //     "settings": {
-        //         "foreground": "#ffcce4"
-        //     }
-        // },
         {
             "name": "Markdown Headings",
             "scope": [
