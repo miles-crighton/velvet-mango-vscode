@@ -148,6 +148,9 @@
         "peekViewResult.matchHighlightBackground": "#d292bb43",
         "peekViewEditor.matchHighlightBackground": "#ff49e443",
 
+        // Notifications
+        "notificationCenterHeader.foreground": "#FFE3E3",
+
         "progressBar.background": "#806ef5",
 
         "breadcrumb.foreground": "#e6aeae",
@@ -159,7 +162,36 @@
         "debugExceptionWidget.border": "#ffffff",
         "extensionButton.prominentBackground": "#c26ef4",
         "extensionButton.prominentForeground": "#e5f5f5",
-        "extensionButton.prominentHoverBackground": "#58c7e0"
+        "extensionButton.prominentHoverBackground": "#58c7e0",
+
+        // Merges
+        "merge.border": "#1f152900",
+        "merge.currentContentBackground": "#2a213922",
+        "merge.currentHeaderBackground": "#2a213944",
+        "merge.incomingContentBackground": "#aea8dc22",
+        "merge.incomingHeaderBackground": "#aea8dc44",
+        "merge.commonContentBackground": "#e0b40122",
+        "merge.commonHeaderBackground": "#e0b40144",
+
+        // Terminal
+        "terminal.ansiBlack": "#9c6f9f",
+        "terminal.ansiRed": "#E05470",
+        "terminal.ansiGreen": "#A4BC77",
+        "terminal.ansiYellow": "#EBB984",
+        "terminal.ansiBlue": "#8078D1",
+        "terminal.ansiMagenta": "#EB579C",
+        "terminal.ansiCyan": "#9AE0F0",
+        "terminal.ansiWhite": "#FFE3E3",
+        "terminal.ansiBrightBlack": "#9c6f9f",
+        "terminal.ansiBrightRed": "#EF4568",
+        "terminal.ansiBrightGreen": "#A7C966",
+        "terminal.ansiBrightYellow": "#F9B975",
+        "terminal.ansiBrightBlue": "#9994FF",
+        "terminal.ansiBrightMagenta": "#E54386",
+        "terminal.ansiBrightCyan": "#87DDEE",
+        "terminal.ansiBrightWhite": "#FFF0F0",
+        "terminal.background": "#332535",
+        "terminal.foreground": "#FFE3E3"
     },
     "tokenColors": [
         {
