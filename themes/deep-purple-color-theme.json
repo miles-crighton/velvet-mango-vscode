@@ -146,14 +146,14 @@
             "name": "String",
             "scope": "string",
             "settings": {
-                "foreground": "#9ae0f0"
+                "foreground": "#a3e2f0"
             }
         },
         {
             "name": "Number",
             "scope": ["constant.numeric", "constant.character.numeric"],
             "settings": {
-                "foreground": "#FF94E1"
+                "foreground": "#97a3ff"
             }
         },
         {
@@ -164,7 +164,7 @@
                 // "variable.other.constant"
             ],
             "settings": {
-                "foreground": "#fa88d6"
+                "foreground": "#97a3ff"
             }
         },
         {
@@ -298,7 +298,7 @@
             "scope": ["support.type", "support.class"],
             "settings": {
                 "fontStyle": "italic",
-                "foreground": "#FF94E1"
+                "foreground": "#ff7aa8"
             }
         },
         {
@@ -348,7 +348,7 @@
                 "punctuation.definition.template-expression.end"
             ],
             "settings": {
-                "foreground": "#FFADE8"
+                "foreground": "#e67bbb"
             }
         },
         {
