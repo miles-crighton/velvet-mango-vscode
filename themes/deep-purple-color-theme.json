@@ -4,7 +4,7 @@
     "colors": {
         // Window
         "window.activeBorder": "#634267",
-        "focusBorder": "#62B8E2",
+        "focusBorder": "#e29962",
         "widget.shadow": "#ff000000",
         "textLink.foreground": "#62B8E2",
         // Chevrons
@@ -19,8 +19,8 @@
 
         // Inputs
         "input.background": "#281d29",
-        "input.placeholderForeground": "#916994",
-        "input.foreground": "#f5cef7",
+        "input.placeholderForeground": "#946969",
+        "input.foreground": "#ffacaa",
         "inputValidation.errorBorder": "#ff6b9a",
         "inputValidation.errorForeground": "#ffffff",
         "inputValidation.errorBackground": "#d34675",
@@ -39,11 +39,11 @@
         "sideBar.background": "#332535",
         "sideBar.border": "#39293B",
         "sideBar.foreground": "#e6aeae",
-        "sideBarTitle.foreground": "#8d6391",
+        "sideBarTitle.foreground": "#855d5d",
         "sideBarSectionHeader.background": "#332535",
         "sideBarSectionHeader.foreground": "#ffc5c5",
 
-        "list.activeSelectionBackground": "#7f78d13a",
+        "list.activeSelectionBackground": "#d1977825",
         "list.activeSelectionForeground": "#ff8181",
         "list.invalidItemForeground": "#975f94",
         "list.dropBackground": "#011627",
@@ -100,7 +100,7 @@
 
         // Status bar - bottom bar
         "statusBar.background": "#332535",
-        "statusBar.foreground": "#e6aeae",
+        "statusBar.foreground": "#ffc5c5",
         "statusBar.debuggingBackground": "#5650cb",
         "statusBar.debuggingForeground": "#ffffff",
 
@@ -139,9 +139,6 @@
             "name": "Comment",
             "scope": [
                 "comment",
-                "punctuation.definition.comment",
-                "punctuation.definition.tag",
-                "comment.block.documentation punctuation.definition.bracket",
                 "source.ocaml comment constant.regexp meta.separator"
             ],
             "settings": {
@@ -379,8 +376,7 @@
             "name": "Library class/type",
             "scope": ["support.type", "support.class"],
             "settings": {
-                "fontStyle": "italic",
-                "foreground": "#ff7aa8"
+                "foreground": "#f08181"
             }
         },
         {
