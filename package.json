@@ -2,7 +2,29 @@
     "name": "deep-purple",
     "displayName": "Deep Purple",
     "description": "Feel the embrace of velvety purple dashed with scrumptious orange",
+    "publisher": "miles-crighton",
+    "icon": "icon.png",
+    "license": "See License in LICENSE",
+    "bugs": {
+        "url": "https://github.com/miles-crighton/deep-purple-vscode/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/miles-crighton/deep-purple-vscode"
+    },
+    "homepage": "https://deeppurple.me/",
     "version": "0.0.1",
+    "keywords": [
+        "purple",
+        "orange",
+        "deep",
+        "velvet",
+        "dark theme"
+    ],
+    "galleryBanner": {
+        "color": "#271828",
+        "theme": "dark"
+    },
     "engines": {
         "vscode": "^1.54.0"
     },
