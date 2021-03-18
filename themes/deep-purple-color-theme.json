@@ -133,6 +133,9 @@
         "minimapGutter.addedBackground": "#A7C966",
         "minimapGutter.modifiedBackground": "#756ADE",
         "minimapGutter.deletedBackground": "#EF4568",
+        "minimap.warningHighlight": "#F9B97575",
+        "minimap.errorHighlight": "#EF456875",
+        "minimap.selectionHighlight": "#8d9affd4",
 
         // Editor ruler (behind scrollbar)
         "editorOverviewRuler.border": "#ff000000",
