@@ -9,12 +9,15 @@
         "textLink.foreground": "#62B8E2",
         "textLink.activeForeground": "#56c7ff",
         "foreground": "#ffd5d5",
+        "textBlockQuote.background": "#39293B",
+        "textPreformat.foreground": "#FFE3E3",
         // Chevrons
         "icon.foreground": "#8f6787",
 
         // Badges
         "badge.background": "#5554aa",
         "activityBarBadge.background": "#5554aa",
+        "extensionBadge.remoteBackground": "#5554aa",
 
         // Panel ie. terminal
         "panel.border": "#2d202e",
@@ -32,6 +35,15 @@
         "dropdown.foreground": "#FFE3E3",
         "button.background": "#5554aa",
         "button.foreground": "#fefbff",
+
+        "extensionButton.prominentBackground": "#5554aa",
+        "extensionButton.prominentForeground": "#ffffff",
+        "extensionButton.prominentHoverBackground": "#8a4cd0",
+
+        // Checkbox
+        "checkbox.background": "#281D29",
+        "checkbox.foreground": "#ffacaa",
+        "checkbox.border": "#ffffff00",
 
         // Bar with icons on the left
         "activityBar.foreground": "#FFB0B0",
@@ -90,7 +102,7 @@
         "editor.hoverHighlightBackground": "#85607e68",
         "editorLink.activeForeground": "#56c7ff",
         "editor.findMatchBackground": "#a8abff3f",
-        "editor.findMatchHighlightBackground": "#a8abff2e",
+        "editor.findMatchHighlightBackground": "#ffa8ee51",
         "editor.rangeHighlightBackground": "#ffb0e935",
         "searchEditor.findMatchBackground": "#a8abff2e",
         "editor.selectionBackground": "#673e67",
@@ -136,6 +148,7 @@
         "minimap.warningHighlight": "#F9B97575",
         "minimap.errorHighlight": "#EF456875",
         "minimap.selectionHighlight": "#8d9affd4",
+        "minimap.findMatchHighlight": "#F9B97575",
 
         // Editor ruler (behind scrollbar)
         "editorOverviewRuler.border": "#ff000000",
@@ -196,9 +209,6 @@
         "debugToolBar.background": "#1f1529",
         "debugExceptionWidget.background": "#1f1529",
         "debugExceptionWidget.border": "#ffffff",
-        "extensionButton.prominentBackground": "#c26ef4",
-        "extensionButton.prominentForeground": "#e5f5f5",
-        "extensionButton.prominentHoverBackground": "#58c7e0",
 
         // Merges
         "merge.border": "#1f152900",
@@ -289,7 +299,8 @@
                 "constant.others.fsharp",
                 "keyword.other.unit",
                 "string.quoted.double.skinparam.value",
-                "source.toml constant"
+                "source.toml constant",
+                "constant.other.color.rgb-value.hex"
             ],
             "settings": {
                 "foreground": "#97a3ff"
@@ -385,7 +396,9 @@
                 "source.toml entity.other.attribute-name",
                 "sharing.modifier",
                 "keyword.control.class.ruby",
-                "keyword.control.def.ruby"
+                "keyword.control.def.ruby",
+                "keyword.other.unit",
+                "punctuation.definition.constant"
             ],
             "settings": {
                 "foreground": "#F24B99"
@@ -453,9 +466,8 @@
         },
         {
             "name": "Function argument",
-            "scope": ["variable.parameter"],
+            "scope": ["variable.parameter", "meta.property-value.css"],
             "settings": {
-                "fontStyle": "italic",
                 "foreground": "#c79af4"
             }
         },
@@ -479,7 +491,7 @@
             "scope": "support.function",
             "settings": {
                 "fontStyle": "",
-                "foreground": "#f08181"
+                "foreground": "#ff88d3"
             }
         },
         {
@@ -579,7 +591,7 @@
                 "meta.export.tsx punctuation.definition.block"
             ],
             "settings": {
-                "foreground": "#8bd0f5"
+                "foreground": "#A3E2F0"
             }
         },
         {
