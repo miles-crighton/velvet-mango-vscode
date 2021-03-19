@@ -8,7 +8,7 @@ _Font is Fira Code, yum._
 
 ## Installation
 
-Dive into VSCode, launch the Quick Open panel `(Ctrl+P ⌘P)` and paste `ext install miles-crighton.deep-purple`, press `Enter` to get going.
+Dive into VSCode, launch the Quick Open panel `(Ctrl+P ⌘P)` and paste `ext install miles-crighton.velvet-mango`, press `Enter` to get going.
 
 You can also `git clone https://github.com/miles-crighton/velvet-mango-vscode` into your VSCode's config folder ([find out where on your platform](https://code.visualstudio.com/docs/editor/extension-gallery#_where-are-extensions-installed)), follow this up with a VSCode restart if needed.
 
