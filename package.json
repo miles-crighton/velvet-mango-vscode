@@ -1,18 +1,18 @@
 {
-    "name": "deep-purple",
-    "displayName": "Deep Purple",
+    "name": "velvet-mango",
+    "displayName": "Velvet Mango",
     "description": "Feel the embrace of velvety purple dashed with scrumptious orange... it's not a desert",
     "publisher": "miles-crighton",
     "icon": "icon.png",
     "license": "See License in LICENSE",
     "bugs": {
-        "url": "https://github.com/miles-crighton/deep-purple-vscode/issues"
+        "url": "https://github.com/miles-crighton/velvet-mango-vscode/issues"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/miles-crighton/deep-purple-vscode"
+        "url": "https://github.com/miles-crighton/velvet-mango-vscode"
     },
-    "homepage": "https://deeppurple.me/",
+    "homepage": "https://velvetmango.me/",
     "version": "0.0.15",
     "keywords": [
         "purple",
@@ -34,9 +34,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "Deep Purple",
+                "label": "Velvet Mango",
                 "uiTheme": "vs-dark",
-                "path": "./themes/deep-purple-color-theme.json"
+                "path": "./themes/velvet-mango-theme.json"
             }
         ]
     }
