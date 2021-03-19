@@ -3,7 +3,7 @@
 Give your VSCode a treat, install **Velvet Mango** - embrace the caress of deep _velvety_ purples; let your editor become enveloped by warm _scrumptious_ oranges.
 It's not a desert, it does however give you some eye candy as you _tip-tap-clap_ your _groovy_ code.
 
-![Theme Screenshot](screenshot2.png)
+![Theme Screenshot](screenshot3.png)
 _Font is Fira Code, yum._
 
 ## Installation
