@@ -1,10 +1,10 @@
 {
     "name": "velvet-mango",
     "displayName": "Velvet Mango",
-    "description": "Feel the embrace of velvety purple dashed with scrumptious orange... it's not a desert",
+    "description": "Feel the embrace of velvety purple dashed with scrumptious orange... it's not a desert. Velvet Mango's VSCode theme port.",
     "publisher": "miles-crighton",
     "icon": "icon.png",
-    "license": "See License in LICENSE",
+    "license": "See license in LICENSE",
     "bugs": {
         "url": "https://github.com/miles-crighton/velvet-mango-vscode/issues"
     },
@@ -13,7 +13,7 @@
         "url": "https://github.com/miles-crighton/velvet-mango-vscode"
     },
     "homepage": "https://velvetmango.me/",
-    "version": "0.0.15",
+    "version": "0.0.2",
     "keywords": [
         "purple",
         "orange",
